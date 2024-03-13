@@ -1,0 +1,107 @@
+.navbar ul {
+    list-style-type: none;
+    background-color: black;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    width: 60px;
+    font-size: 17px;
+    font-family: helvetica;
+}
+.navbar li{
+    display: inline-block;
+}
+
+.navbar a:hover {
+    background-color: aquamarine;
+    transition: 0.4s;
+}
+
+.Y {
+    text-align:  center;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+.box {
+    background-color: white;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: left;
+    padding: 20px;
+}
+
+button {
+    background-color: black;
+    background: transparent;
+    outline: none;
+    border-color: white;
+    border-width: 3px;
+    width: 10%;
+}
+
+body {
+    background-color: beige;
+    font-family: black;
+}
+
+main {
+    background-color: white;
+    width: 300;
+    border: 15px;
+    padding: 5px;
+    margin: 20px;
+    font-style: normal;
+}
+
+.A {
+    background-color: white;
+    width: 300;
+    border: 15px;
+    padding: 5px;
+    margin: 30px;
+}
+
+table{
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top: 87%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    background: none;
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 50px;
+    
+}
+th,td{
+    padding: 8px 1px;
+    border: 1px solid #47476b;
+    text-align: left;
+    padding-top: 10px
+}
+th{
+    background: #d1d1e0;
+    color: black;
+    text-transform: uppercase;
+}
+td{
+    font-family: 'open Sans',sans-serif;
+}
+
